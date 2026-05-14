@@ -1,0 +1,36 @@
+patient_id,patient_name,age,gender,department,visit_date,blood_pressure,weight_kg,consultation_fee,satisfaction_score,wait_time_min,city,insurance
+301,kwame asante,34.0,Male,Cardiology,2025-01-15,120/80,75 kg,GHS 150,8,25.0,Accra,Yes
+302,AKOSUA  MENSAH,28.0,f,pediatrics,2025-02-03,110/70,62kg,GHS 100,9,15.0,kumasi,no
+303, Yaw Boateng,45.0,MALE,ORTHOPEDICS,2025-01-22,140/90,88 KG,GHS 200,N/A,45.0,TEMA,YES
+304,Ama Owusu,,Female,General,15/03/2025,130/85,70 kg,GHS 150,7,,Accra,No
+305,KOFI DARKO,67.0,M,cardiology,2025-02-18,180/110,95kg,GHS 250,6,60.0,Takoradi,yes
+303,kwame asante,34.0,Male,Cardiology,2025-01-15,120/80,75 kg,GHS 150,8,25.0,Accra,Yes
+306,Esi Adu ,23.0,FEMALE,PEDIATRICS,20/02/2025,95/60,55 KG,GHS 100,10,10.0,KUMASI,NO
+307, Nana Frimpong,56.0,male,general,2025-03-05,150/95,82kg,GHS 150,N/A,50.0,tema,yes
+308,ADWOA SARPONG,41.0,F,Orthopedics,2025-01-30,125/82,68 kg,GHS 200,8,30.0,accra,No
+309,fiifi quaye,,Male,GENERAL,12/04/2025,N/A,90 KG,GHS 250,7,,Takoradi,YES
+310,BISMARK ANKRAH ,38.0,female,cardiology,2025-02-25,135/88,73kg,GHS 150,9,35.0,Kumasi,no
+311,Akua  Kyei,29.0,FEMALE,Pediatrics,08/03/2025,115/75,58 kg,GHS100,N/A,20.0,ACCRA,Yes
+312,kojo  poku,52.0,M,ORTHOPEDICS,2025-04-10,160/100,85 KG,GHS 200,6,55.0,Tema,NO
+313,Serwa Tetteh ,19.0,f,general,25/01/2025,100/65,50kg,GHS 150,9,12.0,kumasi,yes
+314, Kweku Antwi,73.0,MALE,Cardiology,05/04/2025,175/105,92 kg,GHS 250,5,70.0,Accra,No
+315,EFUA MENSAH,,Female,PEDIATRICS,2025-03-15,128/84,65 KG,GHS 100,8,,TAKORADI,YES
+316,yaw  asare,31.0,male,orthopedics,18/02/2025,118/78,78kg,GHS 200,N/A,28.0,accra,no
+317,Ama Darko ,44.0,F,General,2025-04-22,145/92,72 kg,GHS150,7,40.0,Kumasi,Yes
+318, Kofi Owusu,26.0,MALE,CARDIOLOGY,10/03/2025,108/68,60 KG,GHS 250,9,18.0,TEMA,NO
+319,ABENA QUAYE,60.0,Female,pediatrics,28/01/2025,165/102,88kg,GHS 100,6,65.0,accra,yes
+320,kwabena  ankrah,35.0,m,Orthopedics,2025-02-14,122/79,70 kg,GHS 200,8,32.0,takoradi,No
+321,NANA AMA BOATENG,,FEMALE,GENERAL,22/04/2025,N/A,85 KG,GHS 150,N/A,,Accra,YES
+322,esi  frimpong ,48.0,Male,cardiology,2025-03-08,138/86,76kg,GHS250,7,42.0,KUMASI,no
+323,Bismark Asante,22.0,f,Pediatrics,14/02/2025,112/72,55 kg,GHS 100,9,22.0,tema,Yes
+324,akosua  kyei,55.0,MALE,ORTHOPEDICS,30/03/2025,155/98,90 KG,GHS 200,5,58.0,ACCRA,NO
+325,KOJO MENSAH,39.0,female,general,2025-01-19,126/83,68kg,GHS 150,8,30.0,Kumasi,yes
+326, kweku adu,27.0,M,Cardiology,11/04/2025,N/A,60 kg,GHS 250,N/A,15.0,Takoradi,No
+327,ADWOA TETTEH,,Female,PEDIATRICS,2025-02-07,132/87,72 KG,GHS100,9,,ACCRA,YES
+328,fiifi  poku,50.0,male,orthopedics,23/03/2025,105/70,53kg,GHS 200,6,48.0,kumasi,no
+329,Yaw Sarpong ,33.0,F,General,06/02/2025,170/108,87 kg,GHS 150,7,25.0,Tema,Yes
+330,AKUA ANTWI,42.0,MALE,CARDIOLOGY,2025-04-15,124/81,71 KG,GHS 250,8,38.0,accra,NO
+331,kofi  asare,25.0,female,pediatrics,17/01/2025,98/62,57kg,GHS 100,N/A,20.0,Takoradi,yes
+332,ESI DARKO,58.0,m,Orthopedics,2025-03-25,148/94,84 kg,GHS200,7,52.0,ACCRA,No
+333,nana  quaye,,F,GENERAL,09/02/2025,N/A,63 KG,GHS 150,9,,kumasi,YES
+334,Bismark Kyei ,36.0,Male,cardiology,2025-04-03,130/85,76kg,GHS 250,6,33.0,TEMA,no
