@@ -1,0 +1,35 @@
+patient_id,patient_name,age,gender,department,visit_date,blood_pressure,weight_kg,consultation_fee,satisfaction_score,wait_time_min,city,insurance,systolic,diastolic,month
+301,Kwame Asante,34,Male,Cardiology,2025-01-15,120/80,75.0,150.0,8,25,Accra,Yes,120,80,January
+302,Akosua Mensah,28,Female,Pediatrics,2025-02-03,110/70,62.0,100.0,9,15,Kumasi,No,110,70,February
+303,Yaw Boateng,45,Male,Orthopedics,2025-01-22,140/90,88.0,200.0,8,45,Tema,Yes,140,90,January
+304,Ama Owusu,38,Female,General,2025-01-01,130/85,70.0,150.0,7,32,Accra,No,130,85,January
+305,Kofi Darko,67,Male,Cardiology,2025-02-18,180/110,95.0,250.0,6,60,Takoradi,Yes,180,110,February
+306,Esi Adu,23,Female,Pediatrics,2025-01-01,95/60,55.0,100.0,10,10,Kumasi,No,95,60,January
+307,Nana Frimpong,56,Male,General,2025-03-05,150/95,82.0,150.0,8,50,Tema,Yes,150,95,March
+308,Adwoa Sarpong,41,Female,Orthopedics,2025-01-30,125/82,68.0,200.0,8,30,Accra,No,125,82,January
+309,Fiifi Quaye,38,Male,General,2025-01-01,120/80,90.0,250.0,7,32,Takoradi,Yes,120,80,January
+310,Bismark Ankrah,38,Female,Cardiology,2025-02-25,135/88,73.0,150.0,9,35,Kumasi,No,135,88,February
+311,Akua Kyei,29,Female,Pediatrics,2025-01-01,115/75,58.0,100.0,8,20,Accra,Yes,115,75,January
+312,Kojo Poku,52,Male,Orthopedics,2025-04-10,160/100,85.0,200.0,6,55,Tema,No,160,100,April
+313,Serwa Tetteh,19,Female,General,2025-01-01,100/65,50.0,150.0,9,12,Kumasi,Yes,100,65,January
+314,Kweku Antwi,73,Male,Cardiology,2025-01-01,175/105,92.0,250.0,5,70,Accra,No,175,105,January
+315,Efua Mensah,38,Female,Pediatrics,2025-03-15,128/84,65.0,100.0,8,32,Takoradi,Yes,128,84,March
+316,Yaw Asare,31,Male,Orthopedics,2025-01-01,118/78,78.0,200.0,8,28,Accra,No,118,78,January
+317,Ama Darko,44,Female,General,2025-04-22,145/92,72.0,150.0,7,40,Kumasi,Yes,145,92,April
+318,Kofi Owusu,26,Male,Cardiology,2025-01-01,108/68,60.0,250.0,9,18,Tema,No,108,68,January
+319,Abena Quaye,60,Female,Pediatrics,2025-01-01,165/102,88.0,100.0,6,65,Accra,Yes,165,102,January
+320,Kwabena Ankrah,35,Male,Orthopedics,2025-02-14,122/79,70.0,200.0,8,32,Takoradi,No,122,79,February
+321,Nana Ama Boateng,38,Female,General,2025-01-01,120/80,85.0,150.0,8,32,Accra,Yes,120,80,January
+322,Esi Frimpong,48,Male,Cardiology,2025-03-08,138/86,76.0,250.0,7,42,Kumasi,No,138,86,March
+323,Bismark Asante,22,Female,Pediatrics,2025-01-01,112/72,55.0,100.0,9,22,Tema,Yes,112,72,January
+324,Akosua Kyei,55,Male,Orthopedics,2025-01-01,155/98,90.0,200.0,5,58,Accra,No,155,98,January
+325,Kojo Mensah,39,Female,General,2025-01-19,126/83,68.0,150.0,8,30,Kumasi,Yes,126,83,January
+326,Kweku Adu,27,Male,Cardiology,2025-01-01,120/80,60.0,250.0,8,15,Takoradi,No,120,80,January
+327,Adwoa Tetteh,38,Female,Pediatrics,2025-02-07,132/87,72.0,100.0,9,32,Accra,Yes,132,87,February
+328,Fiifi Poku,50,Male,Orthopedics,2025-01-01,105/70,53.0,200.0,6,48,Kumasi,No,105,70,January
+329,Yaw Sarpong,33,Female,General,2025-01-01,170/108,87.0,150.0,7,25,Tema,Yes,170,108,January
+330,Akua Antwi,42,Male,Cardiology,2025-04-15,124/81,71.0,250.0,8,38,Accra,No,124,81,April
+331,Kofi Asare,25,Female,Pediatrics,2025-01-01,98/62,57.0,100.0,8,20,Takoradi,Yes,98,62,January
+332,Esi Darko,58,Male,Orthopedics,2025-03-25,148/94,84.0,200.0,7,52,Accra,No,148,94,March
+333,Nana Quaye,38,Female,General,2025-01-01,120/80,63.0,150.0,9,32,Kumasi,Yes,120,80,January
+334,Bismark Kyei,36,Male,Cardiology,2025-04-03,130/85,76.0,250.0,6,33,Tema,No,130,85,April

@@ -1,0 +1,31 @@
+student_id,name,gender,class,math_score,english_score,science_score,history_score,dob,tuition_paid,tuition_amount,contact,address,house
+201,James Kwame,Male,Grade 9,78.0,72.0,80.0,68.0,2008-05-14,Yes,1200,0241234567,Accra,Adenta
+202,Abena Mensah,Female,Grade 10,85.0,88.0,80.0,74.0,2007-11-30,no,1500,0557654321,Kumasi,Adum
+203,Kofi Adu,Male,Grade 9,92.0,95.0,88.0,76.5,2008-03-22,YES,1200,0241112222,Tema,Community 5
+204,Ama Boateng,Female,Grade 11,84.0,81.0,76.0,85.0,2006-07-18,No,2000,0201234567,Accra,Lapaz
+205,Kweku Asante,Male,Grade 10,67.0,74.0,70.0,71.0,2007-09-05,yes,1500,0559876543,Takoradi,Effia
+206,Efua Darko,Female,Grade 11,100.0,89.0,85.0,90.0,2006-12-01,NO,2000,0278765432,Kumasi,Nhyiaeso
+207,Yaw Tetteh,Male,Grade 9,74.0,82.5,69.0,65.0,2008-01-17,yes,1200,077522,Tema,Community 5
+208,Akosua,Female,Grade 10,88.0,93.0,80.0,76.5,2007-04-25,No,1500,0241122334,Accra,Lapaz
+209,Kojo Frimpong,Female,Grade 9,84.0,77.0,82.0,80.0,2008-08-10,YES,1200,0559988776,Takoradi,Effia
+210,Adwoa Sarpong,Female,Grade 11,91.0,85.0,90.0,77.0,2006-05-30,no,2000,0274445555,Kumasi,Adum
+211,Bismark Owusu,Male,Grade 10,55.0,61.0,64.0,76.5,2000-01-01,Yes,1500,0243334444,Accra,Adenta
+212,Nana Ama Asante,Female,Grade 9,76.0,82.5,78.0,69.0,2000-01-01,NO,1200,0201122334,Tema,Nhyiaeso
+213,Kwabena Poku,Male,Grade 11,84.0,79.0,85.0,83.0,2007-06-15,yes,2000,0272223333,Kumasi,Adum
+214,Serwa Mensah,Female,Grade 10,89.0,92.0,80.0,78.0,2000-01-01,No,1500,077522,Accra,Lapaz
+215,Fiifi Ankrah,Male,Grade 9,95.0,88.0,92.0,91.0,2008-02-28,YES,1200,0559876543,Takoradi,Effia
+216,Abena Kyei,Female,Grade 10,43.0,82.5,57.0,55.0,2000-01-01,no,2000,0245678901,Accra,Adenta
+217,Kofi Boateng,Male,Grade 11,100.0,73.0,75.0,76.5,2006-10-09,Yes,1500,0207654321,Kumasi,Community 5
+218,Esi Quaye,Female,Grade 9,67.0,85.0,88.0,76.0,2000-01-01,NO,1200,0551112222,Tema,Nhyiaeso
+219,Kwame Asare,Male,Grade 10,84.0,91.0,70.0,88.0,2007-12-21,yes,2000,077522,Accra,Adenta
+220,Akua Darko,Female,Grade 11,84.0,66.0,80.0,70.0,2000-01-01,No,1500,0278899001,Takoradi,Lapaz
+221,Yaw Antwi,Male,Grade 9,72.0,78.0,83.0,76.5,2008-07-03,YES,1200,0244445555,Accra,Effia
+222,Adwoa Frimpong,Female,Grade 10,84.0,84.0,77.0,81.0,2000-01-01,no,2000,0201234321,Kumasi,Adum
+223,Kojo Mensah,Male,Grade 11,91.0,82.5,91.0,74.0,2006-09-14,Yes,1500,0278889999,Tema,Community 5
+224,Ama Tetteh,Female,Grade 9,58.0,69.0,80.0,67.0,2000-01-01,NO,1200,0559871234,Accra,Adenta
+225,Kweku Adu,Male,Grade 10,88.0,90.0,86.0,76.5,2007-03-19,yes,2000,077522,Kumasi,Lapaz
+226,Nana Owusu,Male,Grade 11,100.0,75.0,68.0,92.0,2000-01-01,No,1500,0249990000,Takoradi,Nhyiaeso
+227,Efua Kyei,Female,Grade 9,84.0,88.0,79.0,63.0,2008-04-11,YES,1200,0208877665,Accra,Effia
+228,Bismark Quaye,Male,Grade 10,77.0,82.5,95.0,85.0,2000-01-01,no,2000,0552223333,Kumasi,Adenta
+229,Serwa Ankrah,Female,Grade 11,65.0,71.0,80.0,79.0,2000-01-01,Yes,1200,077522,Tema,Adum
+230,Kofi Asante,Male,Grade 9,93.0,95.0,88.0,76.5,2008-09-27,NO,1500,0271122334,Accra,Community 5

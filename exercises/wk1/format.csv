@@ -1,0 +1,9 @@
+Name, Age ,Email,Country,Salary
+Isaac,17,isaac@email.com,Ghana,2000
+John, ,john@email.com,USA,3000
+mary,25,MARY@email.com,uk, 
+Isaac,17,isaac@email.com,Ghana,2000
+,30,noemail@.com,Nigeria,4000
+Peter,200,peter@email,Kenya,5000
+Anna,22,anna@email.com, ,3500
+Kwame, 28 ,kwame@email.com,Ghana,NaN

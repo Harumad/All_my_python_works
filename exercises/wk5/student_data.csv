@@ -1,0 +1,32 @@
+student_id,name,gender,class,math_score,english_score,science_score,history_score,dob,tuition_paid,tuition_amount,contact,address,house
+201,james kwame,Male,Grade 9,78.0,72,80.0,68,2008-05-14,Yes,"GHS 1,200",0241234567,Accra,Adenta
+202,Abena  Mensah,female,grade 10,85.0,88,,74,2007-11-30,no,"GHS 1,500",0557654321,kumasi,Adum
+203, Kofi Adu,M,Grade 9,92.0,95,88.0,N/A,2008-03-22,YES,"GHS 1,200",024-111-2222,TEMA,Community 5
+204,Ama Boateng,Female,GRADE 11,,81,76.0,85,2006-07-18,No,"GHS 2,000",0201234567,Accra,Lapaz
+205,KWEKU ASANTE,MALE,Grade 10,67.0,74,70.0,71,2007-09-05,yes,"GHS 1,500",055 987 6543,Takoradi,Effia
+203,james kwame,Male,Grade 9,78.0,72,80.0,68,2008-05-14,Yes,"GHS 1,200",0241234567,Accra,Adenta
+206,Efua Darko ,F,grade 11,110.0,89,85.0,90,2006-12-01,NO,"GHS 2,000",0278765432,KUMASI,Nhyiaeso
+207,Yaw Tetteh,male,Grade 9,74.0,N/A,69.0,65,2008-01-17,yes,"GHS 1,200",N/A,tema,community 5
+208,Akosua,Female,Grade 10,88.0,93,,N/A,2007-04-25,No,"GHS 1,500",0241122334,accra,LAPAZ
+209,Kojo Frimpong,FEMALE,GRADE 9,,77,82.0,80,2008-08-10,YES,"GHS 1,200",0559988776,Takoradi,Effia
+210,Adwoa  Sarpong,female,Grade 11,91.0,85,90.0,77,2006-05-30,no,"GHS 2,000",027-444-5555,Kumasi,Adum
+211,BISMARK OWUSU,Male,Grade 10,55.0,61,64.0,N/A,14/03/2007,Yes,"GHS 1,500",024 333 4444,ACCRA,ADENTA
+212,nana ama asante,F,GRADE 9,76.0,N/A,78.0,69,22/09/2008,NO,"GHS 1,200",0201122334,Tema,nhyiaeso
+213,Kwabena  Poku,MALE,grade 11,,79,85.0,83,2007-06-15,yes,"GHS 2,000",027-222-3333,kumasi,Adum
+214, Serwa Mensah,female,Grade 10,89.0,92,,78,05/11/2006,No,"GHS 1,500",N/A,Accra,Lapaz
+215,Fiifi Ankrah,m,GRADE 9,95.0,88,92.0,91,2008-02-28,YES,"GHS 1,200",0559876543,TAKORADI,EFFIA
+216,ABENA KYEI,Female,grade 10,43.0,N/A,57.0,55,17/07/2007,no,"GHS 2,000",024-567-8901,accra,adenta
+217,kofi  boateng,Male,Grade 11,110.0,73,75.0,N/A,2006-10-09,Yes,"GHS 1,500",0207654321,Kumasi,Community 5
+218,Esi Quaye ,f,GRADE 9,67.0,85,88.0,76,30/04/2008,NO,GHS 1200,055 111 2222,TEMA,NHYIAESO
+219, Kwame Asare,MALE,grade 10,,91,70.0,88,2007-12-21,yes,"GHS 2,000",N/A,accra,adenta
+220,AKUA DARKO,Female,Grade 11,84.0,66,,70,11/08/2006,No,GHS1500,0278899001,takoradi,Lapaz
+221,Yaw  Antwi,male,GRADE 9,72.0,78,83.0,N/A,2008-07-03,YES,"GHS 1,200",024 444 5555,Accra,Effia
+222,ADWOA FRIMPONG,FEMALE,grade 10,,84,77.0,81,25/01/2007,no,GHS 2000,0201234321,KUMASI,ADUM
+223,kojo  mensah,M,Grade 11,91.0,N/A,91.0,74,2006-09-14,Yes,"GHS 1,500",027-888-9999,tema,community 5
+224,Ama Tetteh ,female,GRADE 9,58.0,69,,67,08/06/2008,NO,"GHS 1,200",0559871234,ACCRA,Adenta
+225, Kweku Adu,Male,grade 10,88.0,90,86.0,N/A,2007-03-19,yes,"GHS 2,000",N/A,Kumasi,LAPAZ
+226,NANA OWUSU,MALE,Grade 11,110.0,75,68.0,92,22/11/2006,No,GHS 1500,024-999-0000,Takoradi,nhyiaeso
+227,efua  kyei,Female,GRADE 9,,88,79.0,63,2008-04-11,YES,"GHS 1,200",0208877665,ACCRA,Effia
+228,Bismark Quaye ,m,grade 10,77.0,N/A,95.0,85,15/07/2007,no,"GHS 2,000",055 222 3333,kumasi,ADENTA
+229, Serwa Ankrah,f,Grade 11,65.0,71,,79,03/02/2006,Yes,GHS1200,N/A,Tema,adum
+230,KOFI ASANTE,male,GRADE 9,93.0,95,88.0,N/A,2008-09-27,NO,"GHS 1,500",0271122334,accra,Community 5
