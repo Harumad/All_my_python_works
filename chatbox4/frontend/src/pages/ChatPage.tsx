@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
   Send, Sparkles, Plus, Trash2, AlertCircle, ThumbsUp, ThumbsDown,
   Copy, Check, Menu, Coins, TrendingUp,
-  Terminal, ShieldCheck, ChevronRight
+  Terminal, ShieldCheck, ChevronRight, ArrowLeft
 } from 'lucide-react';
 
 interface Message {
@@ -402,7 +402,7 @@ export const ChatPage: React.FC<ChatPageProps> = ({ onNavigateHome }) => {
           </div>
           <button className="clear-all-btn" onClick={clearAllSessions}><Trash2 size={13} /> Clear All History</button>
           <button className="clear-all-btn" onClick={onNavigateHome} style={{ borderTop: '1px solid var(--border-color)', paddingTop: 8, marginTop: 4 }}>
-            <i className="fas fa-arrow-left" style={{ marginRight: 6 }}></i> Back to Home
+            <ArrowLeft size={13} style={{ marginRight: 6 }} /> Back to Home
           </button>
         </div>
       </aside>
@@ -412,7 +412,7 @@ export const ChatPage: React.FC<ChatPageProps> = ({ onNavigateHome }) => {
           <div className="chat-header-info">
             <button className="mobile-menu-btn" onClick={() => setMobileSidebarOpen(true)} aria-label="Open Sidebar Menu"><Menu size={20} /></button>
             <h1 className="chat-header-title">FraudShield AI Chatbot</h1>
-            <span className="chat-header-model-badge">Active Model: DeepSeek-R1</span>
+            <span className="chat-header-model-badge">AI Fraud Detection</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <ShieldCheck size={16} color="var(--color-success)" />

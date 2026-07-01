@@ -12,7 +12,6 @@ const sections = [
   { id: 'features', label: 'Features' },
   { id: 'how-it-works', label: 'How It Works' },
   { id: 'fraud-types', label: 'Fraud Types' },
-  { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Contact' },
 ];
 
@@ -101,7 +100,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateChat, activeSection })
         </button>
         {sections.map(s => (
           <a key={s.id} href={`#${s.id}`} onClick={(e) => { e.preventDefault(); scrollTo(s.id); }}>
-            <i className={`fas fa-${s.id === 'home' ? 'home' : s.id === 'about' ? 'info-circle' : s.id === 'features' ? 'cogs' : s.id === 'how-it-works' ? 'road' : s.id === 'fraud-types' ? 'bug' : s.id === 'faq' ? 'question-circle' : 'envelope'}`}></i>
+            <i className={`fas fa-${s.id === 'home' ? 'home' : s.id === 'about' ? 'info-circle' : s.id === 'features' ? 'cogs' : s.id === 'how-it-works' ? 'road' : s.id === 'fraud-types' ? 'bug' : 'envelope'}`}></i>
             {s.label}
           </a>
         ))}

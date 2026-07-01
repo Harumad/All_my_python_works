@@ -12,15 +12,24 @@ export const ContactFooter: React.FC = () => {
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' });
   const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) return;
     if (!form.email.includes('@') || !form.email.includes('.')) return;
     setSending(true);
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setForm({ name: '', email: '', phone: '', message: '' });
+      }
+    } catch {
+    } finally {
       setSending(false);
-      setForm({ name: '', email: '', phone: '', message: '' });
-    }, 1800);
+    }
   };
 
   return (
@@ -98,7 +107,7 @@ export const ContactFooter: React.FC = () => {
             </div>
             {[
               { title: 'Quick Links', links: ['Home', 'About', 'Features', 'Fraud Types'] },
-              { title: 'Resources', links: ['Safety Tips', 'FAQ', 'Testimonials', 'AI Chatbot'] },
+              { title: 'Resources', links: ['Safety Tips', 'Testimonials', 'AI Chatbot'] },
               { title: 'Legal', links: ['Privacy Policy', 'Terms of Use', 'Cookie Policy'] },
               { title: 'Emergency', links: ['+233 55 123 4567', 'Report Fraud', 'Contact Us'] },
             ].map((col, i) => (

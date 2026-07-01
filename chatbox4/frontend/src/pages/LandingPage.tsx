@@ -1,21 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import {
-  Navbar, Hero, TrustSection, AboutSection, FeaturesSection, HowItWorks,
-  FraudTypes, AlertsSection, AnalyticsSection, CommunityImpact, ChatbotCTA,
-  ScreenshotAnalysis, PhoneChecker, ResourcesSection, Testimonials, FAQ,
+  Navbar, Hero, AboutSection, FeaturesSection, HowItWorks,
+  FraudTypes, AlertsSection, CommunityImpact, ChatbotCTA,
   ContactFooter, ScrollProgress, FloatingButtons, ToastContainer,
   CookieConsent, EmergencyBanner, FraudTicker, showGlobalToast,
 } from '../components/landing';
-import { ChatPanel } from '../components/ChatPanel';
-import { useScrollAnimation, useCounterAnimation } from '../hooks';
 import '../styles/landing.css';
 
-export const LandingPage: React.FC = () => {
-  const [isChatOpen, setIsChatOpen] = useState(false);
+interface LandingPageProps {
+  onNavigateChat: () => void;
+}
 
-  useScrollAnimation();
-  useCounterAnimation();
-
+export const LandingPage: React.FC<LandingPageProps> = ({ onNavigateChat }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       showGlobalToast('info', ' Welcome to FraudShield AI — Stay safe!');
@@ -27,34 +23,42 @@ export const LandingPage: React.FC = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    const els = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .zoom-in');
+    els.forEach(el => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="landing-page">
-      <Navbar onNavigateChat={() => setIsChatOpen(true)} />
+      <Navbar onNavigateChat={onNavigateChat} />
       <EmergencyBanner />
       <FraudTicker />
       <ScrollProgress />
       <main id="main-content">
-        <Hero onNavigateChat={() => setIsChatOpen(true)} />
-        <TrustSection />
+        <Hero onNavigateChat={onNavigateChat} />
         <AboutSection />
-        <FeaturesSection />
+        <div className="section-bg-alt"><FeaturesSection onNavigateChat={onNavigateChat} /></div>
         <HowItWorks />
-        <FraudTypes />
+        <div className="section-bg-alt"><FraudTypes /></div>
         <AlertsSection />
-        <AnalyticsSection />
         <CommunityImpact />
-        <ChatbotCTA onNavigateChat={() => setIsChatOpen(true)} />
-        <ScreenshotAnalysis />
-        <PhoneChecker />
-        <ResourcesSection />
-        <Testimonials />
-        <FAQ />
+        <ChatbotCTA onNavigateChat={onNavigateChat} />
       </main>
       <ContactFooter />
-      <FloatingButtons onNavigateChat={() => setIsChatOpen(true)} />
+      <FloatingButtons onNavigateChat={onNavigateChat} />
       <ToastContainer />
       <CookieConsent />
-      <ChatPanel isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
     </div>
   );
 };

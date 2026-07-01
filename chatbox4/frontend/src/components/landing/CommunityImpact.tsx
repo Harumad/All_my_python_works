@@ -50,6 +50,17 @@ export const CommunityImpact: React.FC = () => (
           ))}
         </div>
       </div>
+
+      <div className="ci-partners">
+        <span className="ci-partners-label">Trusted by leading mobile networks</span>
+        <div className="ci-partners-logos">
+          <div className="ci-partner-logo"><i className="fas fa-building"></i> MTN Ghana</div>
+          <div className="ci-partner-logo"><i className="fas fa-broadcast-tower"></i> Telecel</div>
+          <div className="ci-partner-logo"><i className="fas fa-satellite-dish"></i> AirtelTigo</div>
+          <div className="ci-partner-logo"><i className="fas fa-bank"></i> Bank of Ghana</div>
+          <div className="ci-partner-logo"><i className="fas fa-shield"></i> Ghana Police</div>
+        </div>
+      </div>
     </div>
   </section>
 );
